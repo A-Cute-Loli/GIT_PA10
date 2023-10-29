@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     private Rigidbody rb;
     public GameObject player;
     [SerializeField] private float velocity = 3.5f;
-    [SerializeField] private float rotationspeed = 10f;
     [SerializeField] private GameManager GM;
 
     void Start()
@@ -39,11 +38,6 @@ public class Player : MonoBehaviour
         {
             velocity = 3.5f;
         }
-    }
-
-    private void FixedUpdate()
-    {
-        transform.rotation = Quaternion.Euler(0, 0, rb.velocity.y * rotationspeed);
     }
 
     private void OnCollisionEnter(Collision collision)
