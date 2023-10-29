@@ -136,6 +136,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1798456211}
+    - target: {fileID: 1221792059, guid: fa616eb311850a54498fbc4920bda0fa, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 2014672772}
     - target: {fileID: 1111274631518572476, guid: fa616eb311850a54498fbc4920bda0fa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -597,3 +601,15 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 63660826}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2014672772 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942643919102861668, guid: 6c6e5f222f546d84ea2769878189e2dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 551788290}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25083e5bb5db1154b83fb6b3727cb925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
